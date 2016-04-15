@@ -1,0 +1,73 @@
+* {
+  font-family: monospace;
+  color: white;
+}
+
+body {
+background-color: #191E80;
+}
+
+.jumbotron {
+  background-color: #E90974;
+  color: #FFFFFF;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.container{
+  width:auto;
+  height: 500px;
+  text-align: center;
+}
+.tower {
+  text-align: center;
+  background-color: #F6A623;
+  height: 450px;
+  width:250px;
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.list {
+  height:auto;
+  width: 250px;
+  min-height: 45px;
+  position:absolute;
+  bottom: 0;
+  text-align: -webkit-center;
+
+}
+
+.disk {
+  border: 1px solid #FFFFFF;
+  height: 40px;
+  width: 80px;
+}
+
+#disk2 {
+  width: 120px;
+}
+
+#disk3 {
+  width: 160px;
+}
+
+.selected {
+  background-color: #8F4099;
+}
+
+#textbox {
+  height:50px;
+  text-align: center;
+  font-size: 34px;
+  margin: 10px;
+}

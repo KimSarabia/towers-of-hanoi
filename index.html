@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Towers of Hanoi</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>Towers of Hanoi</h1>
+    <p>The goal of the puzzle is to move all the disks from the leftmost peg to the rightmost peg, adhering to the following rules: Move only one disk at a time. A larger disk may not be placed ontop of a smaller disk.</p>
+  </div>
+  <div id="textbox"></div>
+<div class="container container-table">
+  <div id='container'>
+    <div class='tower'>
+      <div id='tower1' class='list'>
+        <div id='disk1' class='disk'></div>
+        <div id='disk2' class='disk'></div>
+        <div id='disk3' class='disk'></div>
+      </div>
+    </div>
+    <div class='tower'>
+      <div id='tower2' class='list'></div>
+    </div>
+    <div class='tower'>
+      <div id='tower3' class='list'></div>
+    </div>
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+  <script src='main.js'></script>
+</body>
+</html>
